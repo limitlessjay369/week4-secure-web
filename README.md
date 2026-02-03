@@ -1,27 +1,3 @@
-🎉 **PERFECT! Your code is on GitHub!** ✅
-
-I can see all 5 files successfully uploaded:
-- ✅ .gitignore
-- ✅ main.tf
-- ✅ outputs.tf
-- ✅ providers.tf
-- ✅ variables.tf
-
----
-
-## Step 7: Create a README.md
-
-Now we need to add a README file. This is what people see first when they visit your repo.
-
-**In your terminal:**
-
-```bash
-nano README.md
-```
-
-**Paste this content** (we'll customize it):
-
-```markdown
 # Week 4: Secure Public Website with Private Infrastructure
 
 AWS Cloud Engineering Bootcamp - Final Project
@@ -76,8 +52,3 @@ Public URL: http://18.191.77.138
 ## Project Date
 
 February 2026
-```
-
-**Save and exit** (Ctrl+O, Enter, Ctrl+X)
-
-**Tell me when done!**
