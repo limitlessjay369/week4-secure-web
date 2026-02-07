@@ -6,6 +6,12 @@ AWS Cloud Engineering Bootcamp - Final Project
 
 This project deploys a production-grade, secure cloud architecture for a European logistics company migrating their public website to AWS. The architecture separates public-facing resources from private administrative systems using defense-in-depth security principles.
 
+📊 **[View Capstone Presentation](./Cloud-Bootcamp-Capstone-Presentation-Secure-Cloud-Infrastructure.pdf)**
+
+## Architecture Diagram
+
+![Infrastructure Diagram](./INTERNET.png)
+
 ## Architecture
 
 - **Public Tier**: Apache web server in public subnet serving customer-facing website
@@ -14,9 +20,11 @@ This project deploys a production-grade, secure cloud architecture for a Europea
 - **Access Control**: IAM role-based access via AWS Systems Manager
 - **Networking**: VPC with public/private subnets, Internet Gateway, and NAT Gateway
 
-## Live Website
+## Website Screenshot
 
-Public URL: http://18.191.77.138
+![Website Screenshot](./CloudWebsite.png)
+
+*Note: Infrastructure was deployed and tested successfully, then torn down to avoid ongoing costs.*
 
 ## Technologies Used
 
@@ -47,7 +55,7 @@ Public URL: http://18.191.77.138
 
 ## Team
 
-- Jay Twitty
+- Jay Twitty and Chadwick James
 
 ## Project Date
 
