@@ -6,15 +6,15 @@ AWS Cloud Engineering Bootcamp - Final Project
 
 This project deploys a production-grade, secure cloud architecture for a European logistics company migrating their public website to AWS. The architecture separates public-facing resources from private administrative systems using defense-in-depth security principles.
 
-📊 **[View Capstone Presentation](./Cloud-Bootcamp-Capstone-Presentation-Secure-Cloud-Infrastructure.pdf)**
+📊 **[View Capstone Presentation](./docs/Cloud-Bootcamp-Capstone-Presentation-Secure-Cloud-Infrastructure.pdf)**
 
 ## Architecture Diagrams
 
 **Project Template:**
-![Project Template](./INTERNET.png)
+![Project Template](./diagrams/INTERNET.png)
 
 **Implemented Architecture:**
-![Architecture Diagram](./architecture-diagram.png)
+![Architecture Diagram](./diagrams/architecture-diagram.png)
 
 ## Architecture
 
@@ -26,7 +26,7 @@ This project deploys a production-grade, secure cloud architecture for a Europea
 
 ## Website Screenshot
 
-![Website Screenshot](./CloudWebsite.png)
+![Website Screenshot](./diagrams/CloudWebsite.png)
 
 *Note: Infrastructure was deployed and tested successfully, then torn down to avoid ongoing costs.*
 
@@ -56,6 +56,14 @@ This project deploys a production-grade, secure cloud architecture for a Europea
 - Internet Gateway
 - S3 bucket for static assets
 - DynamoDB table for state locking
+
+## Project Structure
+```
+├── docs/           # Project documentation and presentations
+├── diagrams/       # Architecture diagrams and screenshots
+├── terraform/      # Infrastructure as Code files
+└── README.md
+```
 
 ## Team
 
