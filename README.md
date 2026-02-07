@@ -8,9 +8,13 @@ This project deploys a production-grade, secure cloud architecture for a Europea
 
 📊 **[View Capstone Presentation](./Cloud-Bootcamp-Capstone-Presentation-Secure-Cloud-Infrastructure.pdf)**
 
-## Architecture Diagram
+## Architecture Diagrams
 
-![Infrastructure Diagram](./INTERNET.png)
+**Project Template:**
+![Project Template](./INTERNET.png)
+
+**Implemented Architecture:**
+![Architecture Diagram](./architecture-diagram.png)
 
 ## Architecture
 
